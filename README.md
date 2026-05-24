@@ -128,6 +128,6 @@ You will be prompted to enter your travel request (e.g. `Plan a 7-day trip to Ja
 
 ## 🔒 Memory & Checkpointing
 The system keeps track of the travel history using the `thread_id` setting:
-*   In the **Streamlit Frontend**, you can view or modify your active session ID in the sidebar under **User ID** (defaults to `aarohi_user`).
-*   In the **CLI**, the script is configured to use `user_aarohi` as the default thread ID.
+*   In the **Streamlit Frontend**, you can view or modify your active session ID in the sidebar under **User ID** (defaults to `sak_user`).
+*   In the **CLI**, the script is configured to use `user_sak` as the default thread ID.
 *   By specifying the same `thread_id` across multiple runs, LangGraph will load the state history from your PostgreSQL database automatically, maintaining context for subsequent recommendations!
